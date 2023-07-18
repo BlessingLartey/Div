@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile</title>
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+  <div class="profileContainer">
+    <div class="profile">
+      <div class="header">
+        <span class="material-symbols-outlined">
+          border_color
+        </span>
+        <h3>Edit Profile</h3>
+        <div></div>
+      </div>
+      <!-- --------------- Main Body --------------------- -->
+      <div class="main-body">
+        <div class="left-side">
+          <div class="imageContainer">
+            <div class="img-profile">
+              <img class="image" alt="profile"
+                src="profilepic.jpg" />
+              <div class="iconDiv">
+                <div class="blueCircle">
+                  <span class="material-icons-outlined"> photo_camera </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info-div">
+            <div>
+              <label for="name" class="info-label">Name:</label> <br>
+              <span type="text" id="name" class="info"> Jane Doe</span>
+            </div>
+            <div>
+              <label for="school" class="info-label">School:</label> <br>
+              <span type="text" id="school" class="info"> University of Kumasi</span>
+            </div>
+            <div>
+              <label for="email" class="info-label">Email:</label> <br>
+              <span type="text" id="email" class="info"> janedoe@gmail.com</span>
+            </div>
+            <div>
+              <label for="contact" class="info-label">Phone Contact:</label><br>
+              <span type="text" id="contact" class="info"> +233 444 555</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- --------------------right ------------------------- -->
+        <div class="right-side">
+          <form action="#" class="info-div">
+            <div class="grid-col">
+              <div class="form-control ">
+                <label for="name" class="info-label">first Name</label> <br>
+                <input type="text" id="firstname" placeholder="first name" />
+
+              </div>
+              <div class="form-control ">
+                <label for="name" class="info-label">last Name</label> <br>
+                <input type="text" id="lastname" placeholder="last name" />
+
+              </div>
+
+            </div>
+            <div class="form-control">
+              <label for="school" class="info-label"> School</label> <br>
+              <input type="text" id="school" placeholder="enter school" />
+
+            </div>
+
+            <div class="form-control">
+              <label for="email" class="info-label"> Email</label> <br>
+              <input type="text" id="email" placeholder="email" />
+
+            </div>
+
+            <div class="form-control contact">
+              <label for="contact" class="info-label last-child"> Emergency Contact</label> <br>
+              <input type="text" id="contact" placeholder="contact" />
+            </div>
+          </form>
+
+          <button class="submit-update" type="button"> Submit</button>
+
+        </div>
+      </div>
+
+      <!-- ......................... trick upload image ..................... -->
+      <div class="upload trick-upload">
+        <input type="file" id="file" />
+      </div>
+
+      <!-- --------------------- end of grid template ----------------------- -->
+
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>

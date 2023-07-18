@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+}
+
+html, body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.side-bar{
+    background-color: rgb(51, 29, 29);
+    color: aliceblue;
+    width: 20%;
+    height: 100%;
+}
+
+.main-body{
+    background-color: rgb(176, 140, 140);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    bottom: 0%;
+    background: rgb(51, 29, 29);
+    height: 7%;
+    width: 100%;
+    position: absolute;
+    color: aliceblue;
+    padding-left: 10%;
+}
